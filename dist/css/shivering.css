@@ -1,0 +1,104 @@
+/**
+* This is a variable font
+* You can control variable axes as shown below:
+* font-variation-settings: wght 400.0;
+*
+* available axes:
+'wght' (range from 100.0 to 900.0
+*/
+@font-face {
+    font-family: "Switzer-Variable";
+    src:
+        url("../fonts/Switzer-Variable.woff2") format("woff2"),
+        url("../fonts/Switzer-Variable.woff") format("woff"),
+        url("../fonts/Switzer-Variable.ttf") format("truetype");
+    font-weight: 100 900;
+    font-display: swap;
+    font-style: normal;
+}
+/**
+* This is a variable font
+* You can control variable axes as shown below:
+* font-variation-settings: wght 400.0;
+*
+* available axes:
+'wght' (range from 100.0 to 900.0
+*/
+@font-face {
+    font-family: "Switzer-VariableItalic";
+    src:
+        url("../fonts/Switzer-VariableItalic.woff2") format("woff2"),
+        url("../fonts/Switzer-VariableItalic.woff") format("woff"),
+        url("../fonts/Switzer-VariableItalic.ttf") format("truetype");
+    font-weight: 100 900;
+    font-display: swap;
+    font-style: italic;
+}
+
+body {
+    text-align: center;
+    background: #030303;
+    color: #bdc1cd;
+    font-family: "Switzer-Variable", sans-serif;
+}
+
+.container {
+    width: 600px;
+    text-align: center;
+    margin: 20px auto;
+    background-image: url(../img/hand.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 600px;
+}
+
+h1 {
+    font-variation-settings: "wght" 600;
+    rotate: -4deg;
+    font-size: 3.2em;
+    letter-spacing: 0.2em;
+    margin-top: -20px;
+}
+
+h2 {
+    font-variation-settings: "wght" 550;
+}
+
+dd,
+dt,
+dl,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    margin-bottom: 4em;
+}
+
+li {
+    display: inline-block;
+    margin: 0 1em;
+}
+
+dd {
+    margin-bottom: 1em;
+}
+
+dt {
+    font-variation-settings: "wght" 600;
+}
+
+a {
+    color: #030303;
+    background: #bdc1cd;
+    display: inline-block;
+    padding: 4px 8px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #fff;
+}
